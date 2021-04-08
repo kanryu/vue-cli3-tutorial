@@ -188,11 +188,9 @@ To let users interact with your app, we can use the v-on directive to attach eve
 
 ```webpack
 <template>
-  <div id="bind-attribute" class="demo">
-    <span v-bind:title="msg">
-      Hover your mouse over me for a few seconds to see my dynamically bound
-      title!
-    </span>
+  <div id="event-handling">
+    <p>{{ msg }}</p>
+    <button v-on:click="reverseMessage">Reverse Message</button>
   </div>
 </template>
 
@@ -201,7 +199,15 @@ export default {
   name: 'HelloWorld',
   data() {
     return {
-      msg: 'You loaded this page on ' + new Date().toLocaleString()
+      msg: 'Hello Vue.js!'
+    }
+  },
+  methods: {
+    reverseMessage() {
+      this.msg = this.msg
+        .split('')
+        .reverse()
+        .join('')
     }
   }
 }
@@ -266,3 +272,7 @@ export default {
 </script>
 ...
 ```
+
+You can see the page. [hello-world5](result-hello-world5.png)
+
+The result project directory is 'hello-world5'.
