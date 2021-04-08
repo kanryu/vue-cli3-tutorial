@@ -1,7 +1,7 @@
 
 ## Purpose of this tutorial
 
-Learn the official Vue3 tutorial using vue-cli v4.5.
+Learn the official Vue3 tutorials using vue-cli v4.5.
 
 Note: In this tutorial, the display looks like a Unix terminal, and you can actually see it on these operating systems, but you can actually do the same with Windows Terminal and PowerShell Window.
 
