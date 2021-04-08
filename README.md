@@ -33,7 +33,7 @@ $
 A set of project files for a single-page web app using Vue3 is created concisely on the command line.
 
 ```
-$ vue create hellow-world
+$ vue create hello-world
 Vue CLI v4.5.12
 ? Please pick a preset: (Use arrow keys)
   Default ([Vue 2] babel, eslint)
