@@ -43,13 +43,18 @@ Vue CLI v4.5.12
 
 to select [Vue 3]
 
-The generated project directory is 'hello-world'.
+The generated project directory is **hello-world**.
 
-However, the node_modules directory is omitted, so when checking this directory by itself, execute'$ npm install'.
+Note: However, the node_modules directory is omitted, so when checking this directory by itself, execute this:
 
-
+```bash
+$ npm install
 ```
-$ cd hello world
+
+The new project you just created can start the web server immediately on the command line.
+
+```bash
+$ cd hello-world
 $ npm run serve
  DONE  Compiled successfully in 5879ms    17:10:56
 
