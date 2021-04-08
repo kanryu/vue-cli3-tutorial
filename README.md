@@ -3,7 +3,7 @@
 
 Learn the official Vue3 tutorials using vue-cli v4.5.
 
-Note: In this tutorial, the display looks like a Unix terminal, and you can actually see it on these operating systems, but you can also actually do the same with Windows Terminal and PowerShell Window.
+Note: In this tutorial, the display looks like a Unix terminal, and you can actually see it on these operating systems, but you can also actually do the same with Windows Terminal and PowerShell Window on Windows 10.
 
 *The original article of this tutorial is this URL*
 
