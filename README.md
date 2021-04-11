@@ -33,6 +33,8 @@ $
 A set of project files for a single-page web app using Vue3 is created concisely on the command line.
 
 ```
+$ mkdir vue3-tutorial
+$ cd vue3-tutorial
 $ vue create hello-world
 Vue CLI v4.5.12
 ? Please pick a preset: (Use arrow keys)
@@ -44,6 +46,8 @@ Vue CLI v4.5.12
 to select [Vue 3]
 
 The generated project directory is **hello-world**.
+
+In this tutorial, the completed project is included in this repository, along with the modifications to see how it works. You can check the operation immediately by simply restoring the project directory in the repository instead of modifying the source code.
 
 Note: However, the node_modules directory is omitted, so when checking this directory by itself, execute this:
 
