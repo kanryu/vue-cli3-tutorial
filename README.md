@@ -264,18 +264,18 @@ Edit **src/App.vue**
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <HelloWorld msg="Welcome to Your Vue.js App"/>
-  <InputMessage message="Hello Vue!"/>
+  <TwoWayBinding message="Hello Vue!"/>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-import InputMessage from './components/InputMessage.vue'
+import TwoWayBinding from './components/TwoWayBinding.vue'
 
 export default {
   name: 'App',
   components: {
     HelloWorld,
-    InputMessage
+    TwoWayBinding
   }
 }
 </script>
