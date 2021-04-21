@@ -1,5 +1,5 @@
 
-## Purpose of this tutorial
+## A tutorial for Vue 3 using vue-cli v4.5
 
 Learn the official Vue3 tutorials using vue-cli v4.5.
 
